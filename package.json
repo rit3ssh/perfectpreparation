@@ -1,0 +1,21 @@
+{
+  "name": "perfectpreparation",
+  "version": "1.0.0",
+  "description": "A lightweight interview preparation app with a Node.js backend and a Vite-powered React frontend. This repository contains two folders: `Backend` (API, auth, interview services) and `Frontend` (React + Vite UI, features for auth and interviews).",
+  "main": "server.js",
+  "scripts": {
+        "build": "npm install --prefix Backend && npm install --prefix Frontend && npm run build --prefix Frontend",
+        "start": "npm run start --prefix Backend"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rit3ssh/perfectpreparation.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rit3ssh/perfectpreparation/issues"
+  },
+  "homepage": "https://github.com/rit3ssh/perfectpreparation#readme"
+}
