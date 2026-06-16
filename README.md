@@ -12,10 +12,8 @@ This project is split into a backend API and a frontend app. The backend handles
 **Requirements**
 
 - Node.js (recommended >= 16.x)
-- npm (or yarn)
+- npm 
 - MongoDB (or other DB configured in `Backend/src/config/database.js`)
-
-Optional: an OpenAI-compatible API key or other AI provider keys if `ai.service.js` uses an external AI service.
 
 **Backend - Setup & Workflow**
 
@@ -98,7 +96,7 @@ cd Backend
 npm install
 npm run dev
 
-# Terminal 2 - frontend
+# Terminal 2 - frontend-
 cd Frontend
 npm install
 npm run dev
