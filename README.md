@@ -96,7 +96,7 @@ Example local run (two terminals):
 # Terminal 1 - backend
 cd Backend
 npm install
-npm start
+npm run dev
 
 # Terminal 2 - frontend
 cd Frontend
