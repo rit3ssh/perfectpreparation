@@ -141,21 +141,3 @@ npm install
 npm run dev
 ```
 
-**Testing & Linting**
-
-There are no formal tests included in the repository by default. Add unit and integration tests to `Backend` and `Frontend` as needed (e.g., Jest + Supertest for backend, Vitest or Jest for frontend).
-
-Consider adding linting and formatting tools (`eslint`, `prettier`) and CI checks for PRs.
-
-**Contributing**
-
-- Fork the repository and create a feature branch.
-- Open a pull request with a clear description of changes and testing steps.
-- For issues, please open a GitHub issue describing the bug or feature request.
-
-**Notes & Next Steps**
-
-- If `ai.service.js` relies on an external AI API, ensure the key is provided in `AI_API_KEY` or the appropriate variable.
-- Check `Backend/src/config/database.js` to adapt DB settings to your environment.
-
-If you want, I can also add a `CONTRIBUTING.md`, environment `.env.example` files, or update `package.json` scripts to standardize `start`, `dev`, and `build` scripts. Tell me which one to do next.
